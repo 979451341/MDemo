@@ -1,0 +1,21 @@
+/*全局配置信息及第三方依赖统一管理*/
+ext{
+    isModule = false
+    moduleFirst = false
+    moduleSecond = false
+
+
+    android = [
+            compileSdkVersion   : 27,
+            minSdkVersion       : 19,
+            targetSdkVersion    : 27,
+            versionCode         : 1,
+            versionName         : "1.0.0",
+
+            androidSupportSdkVersion: "27.1.1"
+
+
+
+    ]
+
+}
